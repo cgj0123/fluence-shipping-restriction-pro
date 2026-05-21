@@ -1,0 +1,65 @@
+.fsrp-wrap h1 {
+    margin-bottom: 20px;
+}
+
+.fsrp-panel {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+}
+
+.fsrp-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.fsrp-grid label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.fsrp-grid input[type="text"],
+.fsrp-grid textarea,
+.fsrp-grid select {
+    width: 100%;
+    max-width: 100%;
+}
+
+#fsrp_status {
+    margin-top: 12px;
+    font-weight: 500;
+    padding: 6px 0;
+}
+
+/* 多选下拉框宽度自适应 */
+.select2-container {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+/* 规则表格响应式 */
+.widefat td {
+    word-break: break-word;
+}
+
+.widefat .countries-list {
+    max-width: 300px;
+    white-space: normal;
+}
+
+/* 统计图表容器 */
+#fsrpChart {
+    max-height: 280px;
+}
+
+/* 按钮区域对齐 */
+.fsrp-grid > div:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
